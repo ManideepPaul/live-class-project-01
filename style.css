@@ -7,10 +7,14 @@
 
 body {
   background-color: #fafafa;
+  height: 100vh;
   padding: 60px 80px;
 }
 
 /* Navbar Section */
+
+.container {
+}
 
 .navbar-container {
   display: flex;
@@ -55,8 +59,8 @@ li:first-child::before {
   align-items: center;
 }
 
-.search-icon>svg {
-    width: 26px;
+.search-icon > svg {
+  width: 26px;
 }
 
 .nav-button {
@@ -68,9 +72,59 @@ li:first-child::before {
   padding: 2px 35px;
 }
 
+/* Hero Banner Section */
+
+.hero-container {
+  position: relative;
+}
+
+.square {
+  position: absolute;
+  top: 300px;
+  left: 165px;
+}
+
+.globe {
+  position: absolute;
+  top: 0;
+  left: 52%;
+}
+
+.star {
+  position: absolute;
+  top: 60px;
+  right: 30px;
+}
+
+img[alt="person-hero-iamge"] {
+  position: absolute;
+  top: 30px;
+  left: 0;
+  width: 500px;
+}
+
+.hero-container-right {
+  position: absolute;
+  right: 0;
+  top: 20vh;
+  width: 60%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-heading{
+    font-size: 56px;
+}
+
 .hero-description {
   font-family: "Poppins", sans-serif;
   color: #758283;
+  width: 70%;
+  margin: 10px 0 40px 0;
 }
 
 .contact-heading {
@@ -80,7 +134,26 @@ li:first-child::before {
 
 .button-email {
   color: #758283;
+  border-radius: 5px;
+  padding: 2px 15px;
+  margin-right: 10px;
+  font-size: 16px;
 }
 
 .button-join {
+    background-color: #1f1f1f;
+    color: #fafafa;
+    border-radius: 5px;
+    padding: 2px 3px;
+    font-size: 16px;
+}
+
+.contact-heading{
+    margin: 50px 0 15px 0;
+    font-weight: 500;
+}
+
+.icons {
+    display: flex;
+    gap: 20px;
 }
