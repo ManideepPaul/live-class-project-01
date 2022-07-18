@@ -13,9 +13,6 @@ body {
 
 /* Navbar Section */
 
-.container {
-}
-
 .navbar-container {
   display: flex;
   justify-content: space-between;
